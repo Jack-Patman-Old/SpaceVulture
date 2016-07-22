@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVulture", "SpaceVulture\SpaceVulture.csproj", "{2149380D-0824-405B-AF5A-E296C4C8E43A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVulture.Core", "SpaceVulture.Core\SpaceVulture.Core.csproj", "{FDACB222-CD41-4B97-B669-326295222CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVulture.Commandline", "SpaceVulture.Commandline\SpaceVulture.Commandline.csproj", "{996791E8-1A2D-4524-8DC8-5172A4E3B547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVulture.DataLayer", "SpaceVulture.DataLayer\SpaceVulture.DataLayer.csproj", "{034C1E32-5EA6-4916-8DE4-15FD949DAAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVulture.EveMarketDataRelay", "SpaceVulture.EveMarketDataRelay\SpaceVulture.EveMarketDataRelay.csproj", "{12AA79DD-7859-43F2-AC15-111A11D84A68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GUI", "GUI", "{98B95AFF-EAC1-4C40-9E02-59AA79F7B8A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{30A121B6-5F7C-41A3-8927-14BD3A1BC4C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2149380D-0824-405B-AF5A-E296C4C8E43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2149380D-0824-405B-AF5A-E296C4C8E43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2149380D-0824-405B-AF5A-E296C4C8E43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2149380D-0824-405B-AF5A-E296C4C8E43A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDACB222-CD41-4B97-B669-326295222CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDACB222-CD41-4B97-B669-326295222CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDACB222-CD41-4B97-B669-326295222CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDACB222-CD41-4B97-B669-326295222CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996791E8-1A2D-4524-8DC8-5172A4E3B547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996791E8-1A2D-4524-8DC8-5172A4E3B547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996791E8-1A2D-4524-8DC8-5172A4E3B547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996791E8-1A2D-4524-8DC8-5172A4E3B547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034C1E32-5EA6-4916-8DE4-15FD949DAAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034C1E32-5EA6-4916-8DE4-15FD949DAAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034C1E32-5EA6-4916-8DE4-15FD949DAAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034C1E32-5EA6-4916-8DE4-15FD949DAAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12AA79DD-7859-43F2-AC15-111A11D84A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AA79DD-7859-43F2-AC15-111A11D84A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AA79DD-7859-43F2-AC15-111A11D84A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AA79DD-7859-43F2-AC15-111A11D84A68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2149380D-0824-405B-AF5A-E296C4C8E43A} = {98B95AFF-EAC1-4C40-9E02-59AA79F7B8A1}
+		{996791E8-1A2D-4524-8DC8-5172A4E3B547} = {98B95AFF-EAC1-4C40-9E02-59AA79F7B8A1}
+		{034C1E32-5EA6-4916-8DE4-15FD949DAAE7} = {30A121B6-5F7C-41A3-8927-14BD3A1BC4C5}
+		{12AA79DD-7859-43F2-AC15-111A11D84A68} = {30A121B6-5F7C-41A3-8927-14BD3A1BC4C5}
+	EndGlobalSection
+EndGlobal
