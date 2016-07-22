@@ -2,7 +2,7 @@
 {
     public interface IGraphNode
     {
-        string Name { get; set; }
+        string NodeName { get; set; }
         string GetNodeCreationString();
     }
 }

@@ -8,15 +8,15 @@ namespace SpaceVulture.DataLayer.Nodes
     {
         public Order(Guid orderId, int quantity, DateTime date, ActivityType type, int duration)
         {
-            Name = orderId.ToString();
+            NodeName = orderId.ToString();
             Quantity = quantity;
             OrderType = type;
             Date = date;
             Duration = duration;
         }
 
-        [JsonProperty(PropertyName = "Name")]
-        public string Name { get; set; }
+        [JsonProperty(PropertyName = "NodeName")]
+        public string NodeName { get; set; }
 
         [JsonProperty(PropertyName = "Date")]
         public DateTime Date { get; set; }
@@ -32,7 +32,7 @@ namespace SpaceVulture.DataLayer.Nodes
 
         public string GetNodeCreationString()
         {
-            return new NodeCreationUtility().GetNodeCreationCommand(GetType(), Name, this);
+            return new NodeCreationUtility().GetNodeCreationCommand(GetType(), NodeName, this);
         }
     }
 }

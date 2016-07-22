@@ -75,12 +75,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context\Enums\ActivityType.cs" />
+    <Compile Include="Enums\ActivityType.cs" />
+    <Compile Include="Context\Query\IQueryContext.cs" />
+    <Compile Include="Context\Query\QueryContext.cs" />
     <Compile Include="Nodes\IGraphNode.cs" />
-    <Compile Include="Context\DatabaseContext.cs" />
-    <Compile Include="Context\IDatabaseContext.cs" />
+    <Compile Include="Context\Command\CommandContext.cs" />
+    <Compile Include="Context\Command\ICommandContext.cs" />
     <Compile Include="Nodes\NodeCreationUtility.cs" />
     <Compile Include="Nodes\Order.cs" />
+    <Compile Include="Nodes\Region.cs" />
+    <Compile Include="Nodes\Station.cs" />
+    <Compile Include="Nodes\System.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

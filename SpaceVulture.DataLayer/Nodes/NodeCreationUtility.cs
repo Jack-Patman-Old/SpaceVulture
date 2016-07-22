@@ -24,7 +24,7 @@ namespace SpaceVulture.DataLayer.Nodes
             foreach (PropertyInfo prop in type.GetProperties())
             {
                 string attributeKey = prop.Name;
-                if (!attributeKey.Equals("Name", StringComparison.InvariantCultureIgnoreCase))
+                if (!attributeKey.Equals("NodeName", StringComparison.InvariantCultureIgnoreCase))
                 {
                     object attributeValue = prop.GetValue(node, null);
                     if (attributeValue != null)

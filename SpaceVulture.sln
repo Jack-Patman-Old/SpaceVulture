@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVulture", "SpaceVulture\SpaceVulture.csproj", "{2149380D-0824-405B-AF5A-E296C4C8E43A}"
 EndProject
@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVulture.DataLayer", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVulture.EveMarketDataRelay", "SpaceVulture.EveMarketDataRelay\SpaceVulture.EveMarketDataRelay.csproj", "{12AA79DD-7859-43F2-AC15-111A11D84A68}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GUI", "GUI", "{98B95AFF-EAC1-4C40-9E02-59AA79F7B8A1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{98B95AFF-EAC1-4C40-9E02-59AA79F7B8A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{30A121B6-5F7C-41A3-8927-14BD3A1BC4C5}"
 EndProject

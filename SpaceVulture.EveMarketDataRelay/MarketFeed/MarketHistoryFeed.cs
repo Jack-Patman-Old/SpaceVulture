@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using SpaceVulture.Core.Errors;
-using SpaceVulture.Core.MarketFeed.Json;
 using SpaceVulture.Core.Utility.Extensions;
 using SpaceVulture.EveMarketDataRelay.MarketBlotter;
 using ZMQ;
@@ -15,7 +14,7 @@ using MarketHistoryRoot = SpaceVulture.EveMarketDataRelay.MarketFeed.Json.Market
 using MarketOrderJson = SpaceVulture.EveMarketDataRelay.MarketFeed.Json.MarketOrderJson;
 using SocketType = ZMQ.SocketType;
 
-namespace SpaceVulture.Core.MarketFeed
+namespace SpaceVulture.EveMarketDataRelay.MarketFeed
 {
     public class MarketHistoryFeed
     {

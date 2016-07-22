@@ -2,7 +2,8 @@
 using System.Linq;
 using SpaceVulture.Commandline.Commands;
 using SpaceVulture.DataLayer.Context;
-using SpaceVulture.DataLayer.Enums;
+using SpaceVulture.DataLayer.Context.Command;
+using SpaceVulture.DataLayer.Context.Enums;
 using SpaceVulture.DataLayer.Nodes;
 
 namespace SpaceVulture.Commandline
@@ -13,8 +14,8 @@ namespace SpaceVulture.Commandline
 
         public static void Main()
         {
-            Order order = new Order(guid, 10, new DateTime(),  ActivityType.Buy, 10);
-            DatabaseContext context = new DatabaseContext();
+            Order order = new Order(new Guid(), 10, new DateTime(),  ActivityType.Buy, 10);
+            CommandContext context = new CommandContext();
             context.CreateNode(order);
             //while (command != Command.Exit)
             //{

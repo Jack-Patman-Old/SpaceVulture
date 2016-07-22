@@ -4,11 +4,11 @@ using System.Transactions;
 using Neo4jClient;
 using SpaceVulture.DataLayer.Nodes;
 
-namespace SpaceVulture.DataLayer.Context
+namespace SpaceVulture.DataLayer.Context.Command
 {
-    public class DatabaseContext : IDatabaseContext
+    public class CommandContext : ICommandContext
     {
-        public DatabaseContext()
+        public CommandContext()
         {
             this.TryConnect();
         }
